@@ -21,7 +21,7 @@ const Projects = () => {
       description:
         "A full CRUD test app to create user account, login, get users data, filter by roles: admin and user, search for users and admins by first name and/or last name; and several other features.",
       site: "https://3scorersprediction.netlify.app",
-      repo: "git@github.com:AlabiTobi/3scorers-prediction.git",
+      repo: "https://github.com/AlabiTobi/3scorers-prediction.git",
       img: scorers,
     },
     {
@@ -29,7 +29,7 @@ const Projects = () => {
       description:
         "Allows users to shop online, browse product catalogs, add items to a cart, and order management capabilities.",
       site: "https://theolympiansmall.netlify.app",
-      repo: "git@github.com:AlabiTobi/e-commerce.git",
+      repo: "https://github.com/AlabiTobi/e-commerce.git",
       img: theolympiansmall,
     },
     {
@@ -37,7 +37,7 @@ const Projects = () => {
       description:
         "Website to make an enquiries with exquisite features and responsive design.",
       site: "http://enquires.netlify.app",
-      repo: "git@github.com:AlabiTobi/tutor-app.git",
+      repo: "https://github.com/AlabiTobi/tutor-app.git",
       img: ordinaka,
     },
     {
@@ -45,7 +45,7 @@ const Projects = () => {
       description:
         "Website for Olympians Community with exquisite features and responsive design.",
       site: "https://olympians.netlify.app",
-      repo: "git@github.com:AlabiTobi/olympians.git",
+      repo: "https://github.com/AlabiTobi/olympians.git",
       img: olympians,
     },
     
@@ -97,7 +97,7 @@ const Projects = () => {
                       href={project.site}
                       target="_blank"
                       rel="noreferrer"
-                      className="mr-4 md:mr-10 text-white-800 font-bold border-2 px-2 py-1 rounded-md hover:bg-gray-200 duration-300 text-sm md:text-lg"
+                      className="mr-4 md:mr-10 text-rose-500 font-bold border-2 px-2 py-1 rounded-md hover:bg-gray-200 duration-300 text-sm md:text-lg"
                     >
                       Live site
                     </a>
@@ -105,7 +105,7 @@ const Projects = () => {
                       href={project.repo}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-white-800 font-bold border-2 px-2 py-1 rounded-md hover:bg-gray-200 duration-300 text-sm md:text-lg"
+                      className="text-rose-500 font-bold border-2 px-2 py-1 rounded-md hover:bg-gray-200 duration-300 text-sm md:text-lg"
                     >
                       Code base
                     </a>
@@ -121,7 +121,7 @@ const Projects = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <button className="border-2 text-2xl md:text-4xl bg-gradient-to-r from-gray-500 to-gray-900 text-white w-fit px-4 py-1 rounded-md hover:scale-110 duration-300 mt-10">
+            <button className="border-2 text-2xl md:text-4xl bg-gradient-to-r from-slate-500 to-slate-600 text-rose-500 w-fit px-4 py-1 rounded-md hover:scale-110 duration-300 mt-10">
               <a
                 href="https://github.com/AlabiTobi?tab=repositories"
                 target="_blank"

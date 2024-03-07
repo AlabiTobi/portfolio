@@ -43,7 +43,7 @@ const Navbar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer font-medium  text-gray-400 hover:scale-125 hover:text-white duration-500"
+              className="px-4 cursor-pointer font-medium  text-rose-400 hover:scale-125 hover:text-white duration-500"
               data-aos="fade-down"
               data-aos-duration="1000"
             >
@@ -63,12 +63,12 @@ const Navbar = () => {
         {nav && (
           <ul
             onClick={toggleNav}
-            className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-blue-900 to-blue-400 md:hidden"
+            className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-slate-900 to-slate-400 md:hidden"
           >
             {links.map(({ id, link }) => (
               <li
                 key={id}
-                className="px-4 py-6 text-4xl cursor-pointer font-medium  text-gray-400 hover:scale-125 hover:text-white duration-500"
+                className="px-4 py-6 text-4xl cursor-pointer font-medium  text-white-400 hover:scale-125 hover:text-white duration-500"
               >
                 <Link onClick={toggleNav} to={link} smooth duration={500}>
                   {link}

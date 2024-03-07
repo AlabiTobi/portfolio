@@ -96,7 +96,7 @@ const Contact = () => {
             ))}
           </div>
 
-          <div className="flex justify-around items-center text-white mt-10 text-sm xs:text-xl">
+          <div className="flex justify-around items-center text-rose-500 mt-10 text-sm xs:text-xl">
             &#169; {new Date().getFullYear()} TobiAlabi All rights reserved.
             <ScrollButton />
           </div>

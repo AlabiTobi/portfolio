@@ -6,7 +6,7 @@ const Experience = () => {
     <>
       <div
         name="Experience"
-        className="w-full h-full md:h-screen bg-gradient-to-b from-slate-800 to-slate-400 text-white"
+        className="w-full h-full md:h-screen bg-gradient-to-b from-slate-600 to-slate-600 text-white"
       >
         <section
           className="max-w-screen-xl p-4 sm:p-12 mx-auto flex flex-col justify-center w-full h-full"
@@ -33,7 +33,7 @@ const Experience = () => {
                   href="https://kingcabana.com"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-gray-800 font-bold"
+                  className="text-rose-500 font-bold"
                 >
                   King Cabana Limited{" "}
                 </a>
@@ -48,7 +48,7 @@ const Experience = () => {
                   href="https://www.edtify.com/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-gray-800 font-bold"
+                  className="text-rose-500 font-bold"
                 >
                   Edtify{" "}
                 </a>
@@ -69,7 +69,7 @@ const Experience = () => {
                   href="https://dream-project.org/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-gray-800 font-bold"
+                  className="text-rose-500 font-bold"
                 >
                   Dream Project
                 </a>
@@ -87,12 +87,12 @@ const Experience = () => {
                   href="https://www.sendchamp.com/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-gray-800 font-bold"
+                  className="text-rose-500 font-bold"
                 >
-                  Sendchamp
+                  Sendchamp{" "}
                 </a>
               </span>
-              Sendchamp is the most seamless messaging platform for growing businesses. Send messages to your 
+               is the most seamless messaging platform for growing businesses. Send messages to your 
               customers across WhatsApp, SMS, email, and voice - all with zero coding skills to get started., 
               where he ensured organisational growth and attracted partnerships with over 19 companies. <br />
             </p>

@@ -11,7 +11,7 @@ const Home = () => {
     >
       <section className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full px-4 xs:px-10 md:px-16 md:flex-row">
         <div className="flex flex-col justify-center h-full w-full">
-          <span className="text-3xl xs:text-4xl md:text-6xl font-bold text-white">
+          <span className="text-3xl xs:text-4xl md:text-6xl font-bold text-rose-500">
             Tobi Alabi: <br />
             <span className="text-2xl xs:text-3xl md:text-5xl">
               {" "}
