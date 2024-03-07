@@ -43,7 +43,7 @@ const Projects = () => {
 
   return (
     <>
-      <div name="Projects" className="w-full h-full">
+      <div name="Projects" className="w-full h-full bg-slate-500">
         <section className="max-w-screen-xl mx-auto py-7 xs:py-20 px-5 sm:px-16 flex flex-col justify-center w-full h-full text-black">
           <div>
             <p className="text-2xl xs:text-4xl font-bold inline border-l-4 border-black pl-6 mb-6">
@@ -62,7 +62,7 @@ const Projects = () => {
                 className="flex flex-col items-center justify-center mt-10 md:flex-row gap-10"
               >
                 <div
-                  className="w-2/3 md:w-1/2 p-4 md:p-8 bg-blue-900 md:mr-10 rounded-md hover:rounded-3xl duration-300"
+                  className="w-2/3 md:w-1/2 p-4 md:p-8 bg-slate-700 md:mr-10 rounded-md hover:rounded-3xl duration-300"
                   data-aos="fade-right"
                   data-aos-duration="1000"
                 >
@@ -87,7 +87,7 @@ const Projects = () => {
                       href={project.site}
                       target="_blank"
                       rel="noreferrer"
-                      className="mr-4 md:mr-10 text-blue-800 font-bold border-2 px-2 py-1 rounded-md hover:bg-gray-200 duration-300 text-sm md:text-lg"
+                      className="mr-4 md:mr-10 text-white-800 font-bold border-2 px-2 py-1 rounded-md hover:bg-gray-200 duration-300 text-sm md:text-lg"
                     >
                       Live site
                     </a>
@@ -95,7 +95,7 @@ const Projects = () => {
                       href={project.repo}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-blue-800 font-bold border-2 px-2 py-1 rounded-md hover:bg-gray-200 duration-300 text-sm md:text-lg"
+                      className="text-white-800 font-bold border-2 px-2 py-1 rounded-md hover:bg-gray-200 duration-300 text-sm md:text-lg"
                     >
                       Code base
                     </a>

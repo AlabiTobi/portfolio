@@ -6,7 +6,7 @@ const Experience = () => {
     <>
       <div
         name="Experience"
-        className="w-full h-full md:h-screen bg-gradient-to-b from-blue-400 to-blue-900 text-white"
+        className="w-full h-full md:h-screen bg-gradient-to-b from-slate-800 to-slate-400 text-white"
       >
         <section
           className="max-w-screen-xl p-4 sm:p-12 mx-auto flex flex-col justify-center w-full h-full"
@@ -39,18 +39,11 @@ const Experience = () => {
                 </a>
               </span>
               - a Tech start up in the Event Management space, and worked with the product development team to build{" "}
+              </p>
+              <p>
               <span>
-                <a
-                  href="https://stafftribes.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-gray-800 font-bold"
-                >
-                  stafftribes.com{" "}
-                </a>
-              </span>
-              (a social application) at{" "}
-              <span>
+                
+              <br />
                 <a
                   href="https://www.edtify.com/"
                   target="_blank"
@@ -59,11 +52,14 @@ const Experience = () => {
                 >
                   Edtify{" "}
                 </a>
-              </span>
+              
+              (an online edication application) at{" "}
+              
               - an IT, Educational aspect and Explore theme company in Nigeria and United Kingdom; utilising
               React.js, Meteor.js, HTML, CSS, JavaScript, Redux and other frameworks to develop
               responsive UI, whilst integrating client to server side.
-            </p>
+              </span>
+              </p>
             <br />
             <p>
               With vast experience in Tech, Tobi Alabi has worked as a

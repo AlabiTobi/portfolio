@@ -91,7 +91,7 @@ const Skills = () => {
 
   return (
     <>
-      <div name="Skills" className="w-full h-full">
+      <div name="Skills" className="w-full h-full bg-slate-600">
         <section
           className="max-w-screen-lg mx-auto py-7 xs:py-20 px-5 sm:px-16 flex flex-col justify-center w-full h-full text-black"
           data-aos="fade-up"

@@ -34,9 +34,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="z-50 flex justify-between items-center w-full h-20 fixed text-white px-4 bg-[#1e40af] ">
+      <nav className="z-50 flex justify-between items-center w-full h-20 fixed text-white px-4 bg-slate-700 ">
         <h1 className="text-4xl font-signature hover:scale-110 hover:text-gray-300 duration-300 ml-2 cursor-pointer">
-          <a href="/">&#60;Tobi/&#62;</a>
+          <a href="/">&#60;Tobi&#62;</a>
         </h1>
 
         <ul className=" hidden md:flex space-x-4 mr-2">

@@ -51,7 +51,7 @@ const Contact = () => {
     <>
       <div
         name="Contact"
-        className="bg-gradient-to-b from-blue-900 to-blue-300 h-full w-full py-16"
+        className="bg-gradient-to-b from-slate-900 to-slate-600 h-full w-full py-16"
       >
         <section
           className="400 max-w-screen-lg mx-auto px-5 sm:px-16"
