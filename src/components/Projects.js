@@ -4,6 +4,7 @@ import olympians from "../assets/olympians.png";
 import theolympiansmall from "../assets/theolympiansmall.png";
 import kingCabana from "../assets/kingCabana.png";
 import scorers from "../assets/3scorerssignup.png";
+import ordinaka from "../assets/ordinaka.JPG";
 
 const Projects = () => {
   const projects = [
@@ -32,6 +33,14 @@ const Projects = () => {
       img: theolympiansmall,
     },
     {
+      title: "Enquiry",
+      description:
+        "Website to make an enquiries with exquisite features and responsive design.",
+      site: "http://enquires.netlify.app",
+      repo: "git@github.com:AlabiTobi/tutor-app.git",
+      img: ordinaka,
+    },
+    {
       title: "OLYMPIANS - Global Community",
       description:
         "Website for Olympians Community with exquisite features and responsive design.",
@@ -39,6 +48,7 @@ const Projects = () => {
       repo: "git@github.com:AlabiTobi/olympians.git",
       img: olympians,
     },
+    
   ];
 
   return (
@@ -113,12 +123,12 @@ const Projects = () => {
           >
             <button className="border-2 text-2xl md:text-4xl bg-gradient-to-r from-gray-500 to-gray-900 text-white w-fit px-4 py-1 rounded-md hover:scale-110 duration-300 mt-10">
               <a
-                href="https://github.com/JosiahENUMAH?tab=repositories"
+                href="https://github.com/AlabiTobi?tab=repositories"
                 target="_blank"
                 rel="noreferrer"
               >
-                More Projects
               </a>
+              More Projects
             </button>
           </footer>
         </section>
